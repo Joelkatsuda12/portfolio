@@ -206,11 +206,13 @@
   }
   
   .body_text {
+      margin-left: 0px;
     margin-top: 5px;
   }
   
    .headers {
      margin-top: 20px;
+       margin-left: 0px;
    }
    
    
