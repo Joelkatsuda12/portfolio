@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - "Photos I've Taken!"</title>
+    <link rel="icon" type="image/x-icon" href="symbol.svg">
+    <link rel="stylesheet" href="photos.css">
+</head>
+<body>
+
+    <nav>
+  
+        <ul class='sidebar'>
+         <li><a class='active' onclick=hideSidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+         <li><a class='active' href='index.html'>Home</a></li>
+         <li><a class='active' href='Artwork.html'>Artwork</a></li>
+         <li><a class='active' href='About.html'>About Me</a></li>
+         <li><a class='active' href='inspiration.html'>Inspirations</a></li>
+         <li><a class='active' href='photos.html'>Photos</a></li>
+       </ul>
+         
+       <ul>
+         <li class="mobil"><a class='active' href='index.html'>Home</a></li>
+         <li class="mobil"><a class='active' href='Artwork.html'>Artwork</a></li>
+         <li class="mobil"><a class='active' href='About.html'>About Me</a></li>
+         <li class="mobil"><a class='active' href='inspiration.html'>Inspirations</a></li>
+         <li class="mobil"><a class='active' href='photos.html'>Photos</a></li>
+         <li class='menu-button' onclick=showSidebar()><a class='active' href='#'><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+       </ul>
+    </nav> 
+    
+    
+    
+    
+    
+    
+    
+            <div id='content'> 
+              
+              <div id='text-container'>
+                <h1 id='title'>Joel Katsuda Photography</h1>
+              </div>
+              
+              
+            <div id='photos-container'>  
+      <div id='photo1'><img id='big-img' src='Photos-1/DSC_0449.JPG'></div>
+
+              <p id="description">f/16 &emsp; 1/3200 sec &emsp; ISO-10000</p>
+
+              <div id='small-container'>
+                <div class='small'><img id='tree' src='Photos-2/DSC_0755.JPG' onclick="showTree()"></div>
+                <div class='small'><img id='moon' src='Photos-2/DSC_1280.JPG' onclick="showMoon()"></div>
+                <div class='small'><img id='birds' src='Photos-1/DSC_0449.JPG' onclick="showBirds()"></div>
+                <div class='small'><img id='fireworks' src='Photos-3/DSC_2266.jpg' onclick="showFireworks()"></div>
+                <div class='small'><img id='bricks' src='Photos-4/DSC_5640.jpg' onclick="showBricks()"></div>
+                <div class='small'><img id='football' src='Photos-4/DSC_5776.jpg' onclick="showFootball()"></div>
+                <div class='small'><img id='drums' src='Photos-4/DSC_5845.jpg' onclick="showDrums()"></div>
+                <div class='small'><img id='lightning' src='Photos-4/lightning.jpg' onclick="showLightning()"></div> 
+                <div class='small'><img id='flowers' src='Photos-1/DSC_0385.JPG' onclick="showFlowers()"></div>  
+                <div class='small'><img id='lights' src='Photos-3/DSC_1709.jpg' onclick="showLights()"></div>            
+                <div class='small'><img id='baseball' src='Photos-3/DSC_2017.jpg' onclick="showBaseball()"></div>
+                <div class='small'><img id='fire' src='Photos-4/DSC_2865.jpg' onclick="showFire()"></div>           
+                <div class='small'><img id='car' src='Photos-2/DSC_1538.JPG' onclick="showCar()"></div>   
+                <div class='small'><img id='skyscraper' src='Photos-1/DSC_0272.JPG' onclick="showSkyscraper()"></div>
+                <div class='small'><img id='station' src='Photos-1/DSC_0357.JPG' onclick="showStation()"></div>         
+                <div class='small'><img id='cat' src='Photos-1/DSC_0390.JPG' onclick="showCat()"></div>             
+                <div class='small'><img id='building' src='Photos-2/DSC_0529.JPG' onclick="showBuilding()"></div>          
+                <div class='small'><img id='fountain' src='Photos-2/DSC_1693.JPG' onclick="showFountain()"></div> 
+                <div class='small'><img id='light' src='Photos-3/DSC_1725.JPG' onclick="showLight()"></div>            
+                <div class='small'><img id='fence' src='Photos-3/DSC_1825.jpg' onclick="showFence()"></div>   
+              </div>
+            </div>        
+                
+                
+              </div>
+            </div>
+
+
+
+<script src="photos.js"></script>
+</body>
+</html>
