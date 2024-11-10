@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - "This is my artwork!"</title>
+    <link rel="icon" type="image/x-icon" href="symbol.svg">
+    <link rel="stylesheet" href="Artwork.css">
+</head>
+<body>
+    
+    <nav>
+  
+        <ul class='sidebar'>
+         <li><a class='active' onclick=hideSidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+         <li><a class='active' href='index.html'>Home</a></li>
+         <li><a class='active' href='Artwork.html'>Artwork</a></li>
+         <li><a class='active' href='About.html'>About Me</a></li>
+         <li><a class='active' href='inspiration.html'>Inspirations</a></li>
+         <li><a class='active' href='photos.html'>Photos</a></li>
+       </ul>
+         
+       <ul>
+         <li class="mobil"><a class='active' href='index.html'>Home</a></li>
+         <li class="mobil"><a class='active' href='Artwork.html'>Artwork</a></li>
+         <li class="mobil"><a class='active' href='About.html'>About Me</a></li>
+         <li class="mobil"><a class='active' href='inspiration.html'>Inspirations</a></li>
+         <li class="mobil"><a class='active' href='photos.html'>Photos</a></li>
+         <li class='menu-button' onclick=showSidebar()><a class='active' href='#'><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+       </ul>
+    </nav>
+
+    <div id="background"></div>
+
+    <div id="content">
+
+      <h1 id="artwork-title" class="headers">Artwork</h1>
+    <div id="artwork-container-desktop" class="containers">  
+      <div class="widgets"><a href='cover.html' target='_blank'><img class='Photos-desktop' src="Album Cover/album_cover.jpg"></a></div>
+      <div class="widgets"><a href='website.html' target='_blank'><img class='Photos-desktop' src="coded-website/coded_website.jpg"></a></div>
+      <div class="widgets"><a href='transfer.html' target='_blank'><img class='Photos-desktop' src="EMU Transfer Student/transfer-5.jpg"></a></div>
+      <div class="widgets"><a href='welcome.html' target='_blank'><img class='Photos-desktop' src="EMU welcome poster/EMU-welcome-poster.jpg"></a></div>
+      <div class="widgets"><a href='train.html' target='_blank'><img class='Photos-desktop' src="Train Schedule/schedule_1.jpg"></a></div>
+      <div class="widgets"><a href='vector.html' target='_blank'><img class='Photos-desktop' src="Vector Art/vector_1.jpg"></a></div>
+      <div class="widgets"><a href='weekly.html' target='_blank'><img class='Photos-desktop' src="weekly logos/weekly activity 1 mockup.jpg"></a></div>
+      <div class="widgets"><a href='rush.html' target='_blank'><img class='Photos-desktop' src="Fall Rush Video/fall rush screenshot.jpg"></a></div>
+      <div class="widgets"><a href='movie.html' target='_blank'><img class='Photos-desktop' src="Movie Intro/movie_screenshot.JPG"></a></div>
+      <div class="widgets"><a href='donate.html' target='_blank'><img class='Photos-desktop' src="Dine and Donate/donate.jpg"></a></div>
+    </div>  
+    
+      
+
+    </div>
+
+<script src="Artwork.js"></script>    
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - "Album Cover Animation"</title>
+    <link rel="icon" type="image/x-icon" href="symbol.svg">
+    <link rel="stylesheet" href="cover.css">
+</head>
+<body>
+
+  <nav></nav>
+
+
+  <div id='content'> 
+    <div id='photos-container'>  
+      <div id='photo1'>
+        <img class='big-img' src="Album Cover/album_cover.jpg">
+        <video style = 'display: none;'controls enablePictureInPicture controlsList="nodownload"><source src='Album Cover/album_animation.mp4'></video>
+      </div>
+    
+ 
+  
+      <div id='small-container'>
+        <div class='small' onclick = "showImg()"><img src='Album Cover/album_cover.jpg'></div>
+        <div class="small" onclick = "showVideo()"><img src='Album Cover/cover-screenshot.jpg'></div>
+      </div>
+
+    </div>        
+
+        
+          <div id='text-container'>
+            <h1 id='title'>Album Cover Animation</h1>
+            <br>
+              <p id='description'>For this project, I needed to come up with 2 pieces of design media for a mock client to simulate freelance design work. I chose the music artist “The Weeknd” since I am a very active listener and I understood what the tone of his music was. I chose an album cover and an animation because I wanted to sharpen my Photoshop and After Effects skills, while also capturing the mood of his music. 
+                </p> 
+                <br>
+                <br>
+                <br>
+              <p>Media: After Effects + Photoshop<br>
+                File Type: MP4 + JPG/PDF<br>
+                Size: 1080px X 1920px<br>
+                </p>
+            
+            <div id='bottom'></div>
+            
+            
+          </div>
+        </div>
+
+
+<script src="cover.js"></script>
+</body>
+</html>

@@ -1,0 +1,322 @@
+* {
+    margin: 0px auto;
+        padding:0;
+      margin: 0;
+      list-style: none;
+    box-sizing: border-box;
+    font-family: helvetica;
+  }
+  
+  *::-webkit-scrollbar {
+      display: none;
+  }
+  
+  p, h1, img, br {
+    user-select: none;
+  }
+
+  
+ /* Header */
+  
+ nav {
+  z-index: 999;
+  height: 80px;
+  background-color: rgba(245, 245, 245, 0.767);
+  width: 100%;
+  box-shadow: 2px 2px 5px #5353534b;
+}
+
+nav ul{
+  margin-left: 50px;
+  margin-left: 19%;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 5px;
+  line-height: 80px;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: black;
+  font-family: helvetica;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar a {
+  width: 100%;
+}
+
+.menu-button {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    #content {
+      margin: auto;
+      width: 800px;
+      display: flex;
+    }
+  
+  #more {
+    position: absolute;
+    margin-top: -200px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 60%;
+  }
+  
+  #block {
+    position: absolute;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  #photos-container {
+    z-index: 999;
+    width: 400px;
+  }
+  
+  #text-container {
+    float: right;
+    width: 400px;
+    margin-top: 80px;
+    margin-left: 30px;
+  }
+  
+  #photo1 {
+    margin-top: 80px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+
+  }
+
+  #photo1 img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #photo1 img:hover{
+    cursor: zoom-in;
+  }
+  
+  #small-container {
+    width: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  
+  .small {
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 80px;
+    aspect-ratio: 1/1;
+    margin-bottom: 20px;
+    background-image: linear-gradient( black, green);
+    cursor: pointer;
+    border: 2px solid black;
+  }
+
+  .small img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media(max-width: 850px) {
+  
+    .mobil {
+      display: none;
+  }
+
+  nav {
+    height: 60px;
+  }
+
+  .menu-button {
+      display: block;
+      float: right;
+      margin-right: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    #content {
+      margin: auto;
+      width: 800px;
+      height: 320vh;
+    }
+  
+  #more {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  #block, #more-container {
+    width: 100%;
+    
+  }
+  
+  #block {
+    position: fixed;
+    overflow-y: scroll;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width:100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  #content {
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  #photos-container {
+    width: 100%;
+  }
+  
+  #photo1 {
+    margin: 0px auto;
+    max-width: 500px;
+    width: 90%;
+    aspect-ratio: 1/1;
+    margin-top: 70px;
+  }
+  
+  #small-container {
+    margin: 0px auto;
+    max-width: 500px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+  }
+  
+  .small {
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 90px;
+    aspect-ratio: 1/1;
+    background-color: purple;
+  }
+  
+  #text-container {
+    float: none;
+    max-width: 500px;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 70px;
+    margin-bottom:150px;
+  }
+     
+    #bottom {
+      height:130px;
+    }
+     
+}
