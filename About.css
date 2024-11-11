@@ -144,7 +144,7 @@ margin-top: 150px;
 @media(max-width: 800px){
   .headers {
       text-align: center;
-    padding-left: 0px;
+    padding-left: -20px;
   }
 }
 
