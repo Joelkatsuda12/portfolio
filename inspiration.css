@@ -199,6 +199,7 @@ max-width: 400px;
 .text {
 margin: 0px auto;
 text-align: center;
+  padding-left: 0px;
 }
 
 .body_text {
